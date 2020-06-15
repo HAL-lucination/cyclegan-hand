@@ -4,7 +4,7 @@ Disclaimer: Part of codes are borrowed from [aitorzip/Pytorch-CycleGAN](https://
 
 ## Prerequisites
 
-Code is intended to work with ```Python 3.7```, it hasn't been tested with previous versions. 
+Code is intended to work with ```Python 3.7``` and ```Torch 1.4.0```. Previous versions are not tested. 
 
 ## Training
 
@@ -32,7 +32,7 @@ To build the dataset for generating photorealistic hand samples from synthetic i
     |   |   |   ├── SynHand        # Contains synthetic hand images (i.e. SynthHand Dataset)
     |   |   |   └── RealHand       # Contains captured hand images with blank backgrounds
     
-### 2. Train!
+### 2. Train
 ```
 ./train --dataroot datasets/hand_syn2real/ --cuda
 ```
